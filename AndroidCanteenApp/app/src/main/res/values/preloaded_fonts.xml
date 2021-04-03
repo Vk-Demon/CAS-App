@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/actor</item>
+        <item>@font/alegreya_sans</item>
+        <item>@font/alegreya_sans_sc</item>
+        <item>@font/assistant</item>
+        <item>@font/athiti</item>
+        <item>@font/athiti_light</item>
+        <item>@font/cabin</item>
+        <item>@font/cairo</item>
+        <item>@font/cairo_light</item>
+        <item>@font/cantarell</item>
+        <item>@font/exo</item>
+        <item>@font/fira_sans</item>
+        <item>@font/gafata</item>
+        <item>@font/gudea</item>
+        <item>@font/gudea_bold</item>
+        <item>@font/hind_guntur</item>
+        <item>@font/hind_guntur_light</item>
+        <item>@font/kanit_light</item>
+        <item>@font/maven_pro</item>
+        <item>@font/maven_pro_medium</item>
+        <item>@font/montserrat</item>
+        <item>@font/nunito_sans</item>
+        <item>@font/open_sans</item>
+        <item>@font/playfair_display</item>
+        <item>@font/quantico</item>
+        <item>@font/raleway_light</item>
+        <item>@font/raleway_medium</item>
+        <item>@font/roboto</item>
+        <item>@font/sanchez</item>
+        <item>@font/titillium_web</item>
+        <item>@font/titillium_web_light</item>
+        <item>@font/ubuntu</item>
+        <item>@font/ubuntu_light</item>
+        <item>@font/varela</item>
+    </array>
+</resources>

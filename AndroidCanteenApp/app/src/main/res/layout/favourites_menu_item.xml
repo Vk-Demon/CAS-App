@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="290dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginBottom="40dp">
+
+        <ImageView
+            android:id="@+id/favourites_menu_image"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:transitionName="menu_image_transition"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/fav_relative_bottom">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/fav_relative_bottom_inner"
+            >
+
+            <ImageView
+                android:id="@+id/favourites_menu_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/ic_info_neon_green_24dp"/>
+
+            <ImageView
+                android:id="@+id/favourites_menu_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="56dp"
+                android:src="@drawable/ic_delete_neon_green_24dp"/>
+
+            <TextView
+                android:id="@+id/favourites_menu_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="96dp"
+                android:fontFamily="@font/cairo_light"
+                android:textColor="?attr/text_color_green" />
+
+        </RelativeLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>

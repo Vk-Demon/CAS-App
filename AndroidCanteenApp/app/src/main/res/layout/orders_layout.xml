@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    app:cardBackgroundColor="?attr/text_color_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:background="?attr/background_middle">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                android:textSize="16sp"
+                android:text="Order information"/>
+
+            <TextView
+                android:id="@+id/my_orders_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:text="1"/>
+
+            <TextView
+                android:id="@+id/my_orders_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:text="2020"/>
+
+            <TextView
+                android:id="@+id/my_orders_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:text="Status"/>
+
+            <TextView
+                android:id="@+id/my_orders_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:text="Name"/>
+
+            <TextView
+                android:id="@+id/my_orders_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:text="Phone"/>
+
+            <TextView
+                android:id="@+id/my_orders_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical|start"
+                android:textColor="?attr/text_color_green"
+                android:fontFamily="@font/cairo_light"
+                android:text="Email"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="?attr/text_color_green_blue">
+
+                <LinearLayout
+                    android:id="@+id/my_orders_view_order_details_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/order_ll_ripple">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center_vertical|start"
+                        android:textColor="?attr/text_color_green_blue"
+                        android:fontFamily="@font/cairo_light"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="View order details"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_navigate_next_neon_green_24dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="12dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="?attr/text_color_green_blue">
+
+                <LinearLayout
+                    android:id="@+id/my_orders_cancel_order_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/order_ll_ripple">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center_vertical|start"
+                        android:textColor="?attr/text_color_green_blue"
+                        android:fontFamily="@font/cairo_light"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="Cancel order"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_cancel_neon_green_24dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="12dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

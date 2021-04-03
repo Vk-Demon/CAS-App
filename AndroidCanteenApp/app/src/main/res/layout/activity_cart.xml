@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_inner"
+    tools:context=".CartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_cart_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Orders > My Cart"
+        app:contentInsetStartWithNavigation="0dp"
+        android:paddingStart="0dp"
+        app:titleTextColor="?attr/tab_color"
+        app:insetForeground="@null"
+        app:navigationIcon="@drawable/ic_shopping_cart_neon_green_24dp"
+        app:titleTextAppearance="@style/ToolbarTextAppearance"
+        android:background="?attr/background_outer">
+
+        <ImageView
+            android:id="@+id/cart_info_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_info_neon_green_24dp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/lottie_below_shop_cart"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/lottie_below_text"
+        android:layout_centerInParent="true"
+        android:text="START SHOPPING"
+        android:layout_marginTop="15dp"
+        android:textColor="?attr/text_frame_button"
+        android:textSize="11sp"
+        android:visibility="invisible"
+        android:fontFamily="@font/maven_pro"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_list_cart"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/lottie_below_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your cart is empty"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lottie_list_cart"
+        android:layout_centerInParent="true"
+        android:textColor="?attr/text_color_green_blue"
+        android:textSize="16dp"
+        android:fontFamily="@font/ubuntu_light"/>
+
+
+    <RelativeLayout
+        android:id="@+id/my_cart_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="?attr/background_inner"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="?attr/background_outer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="8dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total : "
+                    android:textColor="?attr/text_color_green"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cairo_light"/>
+
+                <TextView
+                    android:id="@+id/cart_total_amt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹0"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cairo_light"
+                    android:textColor="?attr/text_color_green"/>
+
+            </LinearLayout>
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/cart_place_order_btn"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="PLACE ORDER"
+                android:gravity="center"
+                android:textColor="?attr/text_frame_button"
+                android:textSize="12sp"
+                android:fontFamily="@font/maven_pro" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout
+>

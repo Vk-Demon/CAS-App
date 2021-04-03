@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/ic_icons_menu_a"
+        android:duration="300"/>
+
+    <item
+        android:drawable="@drawable/ic_icons_menu_b"
+        android:duration="300"/>
+
+    <item
+        android:drawable="@drawable/ic_icons_menu_c"
+        android:duration="300"/>
+
+    <item
+        android:drawable="@drawable/ic_icons_menu_d"
+        android:duration="300"/>
+
+    <item
+        android:drawable="@drawable/ic_icons_menu_e"
+        android:duration="300"/>
+
+    <item
+        android:drawable="@drawable/ic_icons_menu_f"
+        android:duration="300"/>
+
+</animation-list>

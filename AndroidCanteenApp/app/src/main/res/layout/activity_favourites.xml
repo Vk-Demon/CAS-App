@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background_inner"
+    tools:context=".FavouritesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="My Favourites"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleTextColor="?attr/tab_color"
+        app:insetForeground="@null"
+        app:navigationIcon="@drawable/ic_favorite_border_white_24dp"
+        app:titleTextAppearance="@style/ToolbarTextAppearance"
+        android:background="?attr/background_outer">
+
+        <ImageView
+            android:id="@+id/favourites_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_shopping_cart_neon_green_24dp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ProgressBar
+        android:id="@+id/favourites_progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/my_favourites_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:src="@drawable/ic_favorite_border_neon_green_24dp"
+        />
+
+    <TextView
+    android:id="@+id/my_favourites_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="15dp"
+    android:layout_below="@id/my_favourites_image"
+    android:fontFamily="@font/raleway_light"
+    android:text="No Favourites Yet"
+    android:visibility="invisible"
+    android:textColor="?attr/text_color_green_blue"
+    android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/my_favourites_text_brief"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_below="@id/my_favourites_text"
+        android:fontFamily="@font/raleway_light"
+        android:text="Keep track off all your favourites. Tap the add to favourites icon below the items you like, and we'll track them here."
+        android:visibility="invisible"
+        android:textColor="?attr/text_color_green_blue"
+        android:textSize="14sp"/>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/favourites_swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_favourites_menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:clipToPadding="false"
+                android:paddingBottom="20dp"/>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

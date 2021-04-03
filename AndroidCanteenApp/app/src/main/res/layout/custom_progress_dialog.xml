@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/dialog_ct"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="?attr/dialog_border_tint"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="?attr/dialog_tint"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+
+                android:layout_width="220dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="?attr/dialog_tint">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_progress_dialog"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="12dp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    app:cardBackgroundColor="?attr/dialog_border_tint"
+                    app:cardCornerRadius="14dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/text_progress_dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/ubuntu_light"
+                        android:gravity="center"
+                        android:text="Loading..."
+                        android:textColor="?attr/dialog_tint"
+                        android:textSize="15sp" />
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

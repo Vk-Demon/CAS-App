@@ -1,0 +1,134 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- Day/Light mode theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0892D0</item>
+        <item name="colorPrimaryDark">@color/Dark</item>
+        <item name="colorAccent">@color/discordGrey</item>
+        <item name="background_outer">#EEEEFF</item>
+        <item name="background_middle">#F2F8FF</item>
+        <item name="background_middle_light">#F8F8FF</item>
+        <item name="background_inner">#FDFCFA</item>
+        <item name="text_color">#000000</item>
+        <item name="tint_color">#000000</item>
+        <item name="button_color">#2196F3</item>
+        <item name="text_color_green">#0892D0</item>
+        <item name="text_color_green_blue">#87CEFA</item>
+        <item name="text_color_orange">#87CEFA</item>
+        <item name="text_color_yellow_green">#0892D0</item>
+        <item name="text_color_yellow">#87CEFA</item>
+        <item name="text_color_red">#1B03A3</item>
+        <item name="text_color_pink">#1B03A3</item>
+        <item name="text_color_gold">#87CEFA</item>
+        <item name="text_frame_button">#0862D0</item>
+        <item name="text_ripple">#EEEEFF</item>
+        <item name="text_color_yellow_blue">#0892D0</item>
+        <item name="text_color_orange_blue">#0892D0</item>
+        <item name="text_order_total">#F2F8FF</item>
+        <item name="dialog_border_tint">#0892D0</item>
+        <item name="dialog_tint">#F2F8FF</item>
+        <item name="alert_dialog_select">#C1E2F7</item>
+        <item name="tab_color">#87CEFA</item>
+        <item name="cart_card_color">#87AEFA</item>
+        <item name="info_toast_yellow">#FFBF00</item>
+        <item name="nav_icon_tint">#0892D0</item>
+        <item name="nav_text_color">#0892D0</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- Night/Dark mode theme. -->
+    <style name="darkTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/neonGreen</item>
+        <item name="colorPrimaryDark">@color/Dark</item>
+        <item name="colorAccent">@color/discordGrey</item>
+        <item name="background_outer">#1E2124</item>
+        <item name="background_middle">#2C2F33</item>
+        <item name="background_middle_light">#2C2F33</item>
+        <item name="background_inner">#36393E</item>
+        <item name="text_color">#FFFFFF</item>
+        <item name="tint_color">#FFFFFF</item>
+        <item name="button_color">#2196F3</item>
+        <item name="text_color_green">#39FF14</item>
+        <item name="text_color_green_blue">#00EE90</item>
+        <item name="text_color_orange">#FF8300</item>
+        <item name="text_color_yellow_green">#32CD32</item>
+        <item name="text_color_yellow">#FAED27</item>
+        <item name="text_color_red">#FF073A</item>
+        <item name="text_color_pink">#FF6EC7</item>
+        <item name="text_color_gold">#CFAA01</item>
+        <item name="text_ripple">#D0F0C0</item>
+        <item name="text_frame_button">#2C2F33</item>
+        <item name="text_color_yellow_blue">#FAED27</item>
+        <item name="text_color_orange_blue">#FF8300</item>
+        <item name="text_order_total">#2C2F33</item>
+        <item name="dialog_border_tint">#39FF14</item>
+        <item name="dialog_tint">#1E2124</item>
+        <item name="alert_dialog_select">#059C5F</item>
+        <item name="tab_color">#39FF14</item>
+        <item name="cart_card_color">#39CF14</item>
+        <item name="info_toast_yellow">#FAED27</item>
+        <item name="nav_icon_tint">#D0F0C0</item>
+        <item name="nav_text_color">#D0F0C0</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:fontFamily">@font/cairo_light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TabTitleTextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/maven_pro</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <style name="ToolbarTextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/cairo</item>
+    </style>
+
+    <style name="AdminToolbarTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/cairo</item>
+    </style>
+
+    <style name="CollapseAppBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/text_color_yellow_green</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/cairo</item>
+    </style>
+
+    <style name="ExpandedAppBar">
+        <item name="android:textColor">?attr/tab_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/cairo</item>
+    </style>
+
+    <style name="SpotsDialogTheme" parent="android:Theme.Material.Dialog.Alert">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+        <item name="DialogSpotColor">?text_color_green_blue</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+</resources>

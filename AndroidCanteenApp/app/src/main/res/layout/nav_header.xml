@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?attr/background_outer">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?attr/background_outer">
+
+        <ImageView
+            android:id="@+id/nav_header_logo_img"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="3dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/dark_mode_toggle"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="122dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:paddingStart="0dp"
+            android:paddingEnd="20dp"
+            android:thumb="@drawable/dark_mode_thumb_selector"
+            android:track="@drawable/dark_mode_track_selector"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:fontFamily="@font/cairo"
+            android:text="CAS"
+            android:textColor="?attr/text_color_green"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/nav_header_lottie_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/user_profile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/hind_guntur_light"
+        android:textColor="?attr/text_color_green"
+        android:text="Hello!"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/user_profile_email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email ID"
+        android:textColor="?attr/text_color_green"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/hind_guntur_light"
+        android:textSize="16dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?background_middle_light">
+
+        <TextView
+            android:id="@+id/user_profile_wallet_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="0.0"
+            android:textColor="?attr/text_color_green_blue"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView18"
+            app:layout_constraintStart_toStartOf="@+id/textView18"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/user_profile_due_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="0.0"
+            android:textColor="?attr/text_color_green_blue"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="@+id/textView19"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="Wallet Balance"
+            android:textColor="?attr/text_color_green_blue"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/user_profile_wallet_balance" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="Due Balance"
+            android:textColor="?attr/text_color_green_blue"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView18"
+            app:layout_constraintTop_toBottomOf="@+id/user_profile_due_balance" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="₹"
+            android:textColor="?attr/text_color_green_blue"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/user_profile_wallet_balance"
+            app:layout_constraintEnd_toStartOf="@+id/user_profile_wallet_balance"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="2dp"
+            android:fontFamily="@font/hind_guntur_light"
+            android:text="₹"
+            android:textColor="?attr/text_color_green_blue"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/user_profile_due_balance"
+            app:layout_constraintEnd_toStartOf="@+id/user_profile_due_balance"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

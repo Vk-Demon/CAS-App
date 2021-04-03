@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/nav_menu_featured"
+                android:title="Featured"
+                android:icon="@drawable/ic_restaurant_menu_white_18dp"/>
+            <item android:id="@+id/nav_menu_orders"
+                android:title="Orders"
+                android:icon="@drawable/ic_shopping_cart_white_18dp"/>
+            <item android:id="@+id/nav_menu_account"
+                android:title="Account"
+                android:icon="@drawable/ic_account_circle_white_18dp"/>
+            <item android:id="@+id/nav_menu_support"
+                android:title="Support"
+                android:icon="@drawable/ic_thumb_up_alt_white_18dp"/>
+</menu>

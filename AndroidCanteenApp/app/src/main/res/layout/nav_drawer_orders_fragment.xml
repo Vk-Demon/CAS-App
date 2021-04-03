@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:insetForeground="@null"
+    android:backgroundTint="?attr/background_inner"
+    android:background="?attr/background_inner"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/orders_fragment_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/background_middle"
+        android:backgroundTint="?attr/background_middle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Orders"
+        app:contentInsetStartWithNavigation="0dp"
+        android:paddingStart="0dp"
+        app:titleTextColor="?attr/tab_color"
+        app:insetForeground="@null"
+        app:navigationIcon="@drawable/ic_shopping_cart_neon_green_24dp"
+        app:titleTextAppearance="@style/ToolbarTextAppearance" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/orders_fragment_my_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orders_fragment_toolbar"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/orderx"
+        app:lottie_loop="true" />
+
+    <FrameLayout
+        android:id="@+id/orders_fragment_my_cart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/fragment_framelayout"
+        app:layout_constraintBottom_toTopOf="@+id/orders_fragment_my_orders"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ubuntu"
+            android:text="My Cart"
+            android:textSize="15sp"
+            android:textColor="?attr/text_frame_button"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/orders_fragment_my_orders"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/fragment_framelayout"
+        app:layout_constraintBottom_toTopOf="@+id/orders_fragment_my_favourites"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ubuntu"
+            android:text="My Orders"
+            android:textSize="15sp"
+            android:textColor="?attr/text_frame_button"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/orders_fragment_my_favourites"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/fragment_framelayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ubuntu"
+            android:text="My Favourites"
+            android:textSize="15sp"
+            android:textColor="?attr/text_frame_button"/>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SignupwithActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="0dp"
+        android:layout_height="460dp"
+        android:background="@drawable/nflogobgcva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:text="Welcome to Sign up...!"
+            android:textColor="@color/neonYellow"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout_google_sup"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/google_button_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/ubuntu_light"
+                android:text="Sign in with"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+
+        </FrameLayout>
+
+        <com.example.canteenautomationsystem.MagicButton
+            android:id="@+id/google_button_sup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="110dp"
+            app:button_icon="@drawable/g_logo"
+            app:button_icon_height="18dp"
+            app:button_icon_width="17dp"
+            app:expandable_area_color="@color/colorGoogleSecondary"
+            app:hide_text="Google"
+            app:hide_text_color="@android:color/black"
+            app:hide_text_size="3dp"
+            app:icon_button_color="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_google_sup"
+            app:layout_constraintTop_toTopOf="parent"
+            app:magic_button_size="40dp" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout_facebook_sup"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/facebook_frame_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/ubuntu_light"
+                android:text="Sign in with"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+
+
+        </FrameLayout>
+
+        <com.example.canteenautomationsystem.MagicButton
+            android:id="@+id/facebook_button_sup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="210dp"
+            app:button_icon="@drawable/fb_logo"
+            app:button_icon_height="17dp"
+            app:button_icon_width="17dp"
+            app:expandable_area_color="@color/colorFacebookSecondary"
+            app:hide_text="Facebook"
+            app:hide_text_color="@android:color/white"
+            app:hide_text_size="3dp"
+            app:icon_button_color="@color/colorFacebookPrimary"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_facebook_sup"
+            app:layout_constraintTop_toTopOf="parent"
+            app:magic_button_size="40dp" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout_email_sup"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/google_button_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/ubuntu_light"
+                android:text="Sign in with"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+
+        </FrameLayout>
+
+        <com.example.canteenautomationsystem.MagicButton
+            android:id="@+id/email_button_sup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="340dp"
+            app:button_icon="@drawable/ic_mail_outline_neon_red_24dp"
+            app:button_icon_height="18dp"
+            app:button_icon_width="17dp"
+            app:expandable_area_color="@color/colorGoogleSecondary"
+            app:hide_text="Email"
+            app:hide_text_color="@android:color/black"
+            app:hide_text_size="3dp"
+            app:icon_button_color="@color/colorGooglePrimary"
+            app:layout_constraintStart_toStartOf="@+id/frameLayout_email_sup"
+            app:layout_constraintTop_toTopOf="parent"
+            app:magic_button_size="40dp" />
+
+        <TextView
+            android:id="@+id/back_log_supw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:fontFamily="@font/ubuntu_light"
+            android:text="Have an Account? Login"
+            android:textColor="@color/richelectricBlue"
+            android:textSize="11sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="140dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="12dp"
+            android:background="@color/limeYellow"
+            app:layout_constraintBottom_toTopOf="@+id/email_button_sup"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/facebook_button_sup" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="140dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/richelectricBlue"
+            app:layout_constraintBottom_toTopOf="@+id/email_button_sup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/facebook_button_sup" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_light"
+            android:text="OR"
+            android:textColor="@color/limeYellow"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/email_button_sup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/facebook_button_sup" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/autoconnectsup"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nblogocircle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

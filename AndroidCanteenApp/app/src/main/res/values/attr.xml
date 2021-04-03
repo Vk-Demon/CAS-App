@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Required attributes for the Magic Button-->
+    <declare-styleable name="MagicButton">
+        <attr name="hide_text" format="string" />
+        <attr name="expandable_area_color" format="color" />
+        <attr name="icon_button_color" format="color" />
+        <attr name="magic_button_size" format="dimension"/>
+        <attr name="button_icon" format="integer" />
+        <attr name="button_icon_width" format="dimension" />
+        <attr name="button_icon_height" format="dimension" />
+        <attr name="hide_text_size" format="dimension" />
+        <attr name="hide_text_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ds">
+        <attr name="background_outer" format="color"/>
+        <attr name="background_middle" format="color"/>
+        <attr name="background_middle_light" format="color"/>
+        <attr name="background_inner" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="tint_color" format="color"/>
+        <attr name="button_color" format="color"/>
+        <attr name="text_color_green" format="color"/>
+        <attr name="text_color_yellow_green" format="color"/>
+        <attr name="text_color_orange" format="color"/>
+        <attr name="text_color_yellow" format="color"/>
+        <attr name="text_color_green_blue" format="color"/>
+        <attr name="text_color_red" format="color"/>
+        <attr name="text_color_pink" format="color"/>
+        <attr name="text_color_gold" format="color"/>
+        <attr name="text_frame_button" format="color"/>
+        <attr name="text_order_total" format="color"/>
+        <attr name="text_ripple" format="color"/>
+        <attr name="text_color_yellow_blue" format="color"/>
+        <attr name="text_color_orange_blue" format="color"/>
+        <attr name="tab_color" format="color"/>
+        <attr name="cart_card_color" format="color"/>
+        <attr name="alert_dialog_select" format="color"/>
+        <attr name="dialog_border_tint" format="color"/>
+        <attr name="dialog_tint" format="color"/>
+        <attr name="info_toast_yellow" format="color"/>
+        <attr name="nav_icon_tint" format="color"/>
+        <attr name="nav_text_color" format="color"/>
+    </declare-styleable>
+
+</resources>

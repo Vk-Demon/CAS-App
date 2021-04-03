@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#55E032</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="neonBlue">#1B03A3</color>
+    <color name="neonViolet">#BC13FE</color>
+    <color name="neonRed">#FF073A</color>
+    <color name="neonOrange">#FF8300</color>
+    <color name="neonYellow">#FAED27</color>
+    <color name="neonGreen">#39FF14</color>
+    <color name="neonPink">#FF6EC7</color>
+    <color name="neonGold">#CFAA01</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#A9A9A9</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="richelectricBlue">#87CEFA</color>
+    <color name="lightViolet">#CC99FF</color>
+    <color name="limeGreen">#00FF00</color>
+    <color name="yellowGreen">#32CD32</color>
+    <color name="limeYellow">#CCFF00</color>
+    <color name="transparentWhite">#CCCCCC</color>
+    <color name="brightOrange">#FFA500</color>
+    <color name="navyBlue">#000080</color>
+    <color name="discordViolet">#7289DA</color>
+    <color name="discordGrey">#99AAB5</color>
+    <color name="discordPaleDark">#424549</color>
+    <color name="discordStaleDark">#36393E</color>
+    <color name="discordMediumDark">#2C2F33</color>
+    <color name="discordDeepDark">#1E2124</color>
+    <color name="unselected_color">#808080</color>
+    <color name="glass_color">#4F0E0D0E</color>
+
+    <!--  Neomorphic Colors  -->
+
+    <color name="neomorph_background_color">#F1F3F6</color>
+    <color name="neomorph_shadow_color">#C2C2C7</color>
+    <color name="neomorph_highlight_color">#FFFFFF</color>
+
+    <!--  For Light UI  -->
+
+    <color name="Light">#E1E6EC</color>
+    <color name="semi_white">#F8F7F7</color>
+
+
+    <!--  For Dark UI  -->
+
+    <color name="Dark">#191A1E</color>
+    <color name="Light_white">#4DFFFFFF</color>
+
+    <!--Colors setup for our social media MagicButtons-->
+    <color name="colorFacebookPrimary">#365797</color>
+    <color name="colorFacebookSecondary">#1f3462</color>
+    <color name="colorGitHubPrimary">#454546</color>
+    <color name="colorGitHubSecondary">#1b1c1f</color>
+    <color name="colorTwitterPrimary">#cdced3</color>
+    <color name="colorTwitterSecondary">#4083db</color>
+    <color name="colorGooglePrimary">#FFFFFF</color>
+    <color name="colorGoogleSecondary">#F0F8FF</color>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/background_inner"
+    android:background="?attr/background_inner">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/featured_fragment_tabBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="?attr/tab_color"
+        app:tabRippleColor="?attr/tab_color"
+        app:tabSelectedTextColor="?attr/tab_color"
+        app:tabTextColor="@color/unselected_color"
+        app:tabIconTint="@color/tab_selected_icon_color"
+        android:background="?attr/background_middle">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/featured_fragment_tabSnacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SNACKS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/featured_fragment_tabMeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEALS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/featured_fragment_tabBeverages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BEVERAGES" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+
+        android:id="@+id/featured_fragment_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/featured_fragment_tabBar"
+        android:background="?attr/background_inner"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
