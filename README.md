@@ -104,7 +104,7 @@ Project Link: [https://github.com/Vk-Demon/CAS-App](https://github.com/Vk-Demon/
 [stars-url]: https://github.com/Vk-Demon/CAS-App/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Vk-Demon/CAS-App.svg?style=for-the-badge
 [issues-url]: https://github.com/Vk-Demon/CAS-App/issues
-[license-shield]: https://img.shields.io/github/license/Vk-Demon/CAS-App.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/CUE-ASAP/Main-Web.svg?style=for-the-badge
 [license-url]: https://github.com/Vk-Demon/CAS-App/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/Vk-Demon
