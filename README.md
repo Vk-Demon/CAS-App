@@ -56,6 +56,7 @@
     <li><a href="#about-the-project">About The Project</a>
     <li><a href="#built-with">Built With</a></li>
 	<li><a href="#license">License</a></li>
+	<li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -89,6 +90,23 @@ CAS is an android application that it greatly simplifies the ordering process fo
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+
+
+<!-- SCREENSHOTS -->
+## Screenshots
+
+  <div id="texts" style="display:inline; white-space:nowrap;"> 
+   <img src="images/Login Screen.gif" alt="" align="left" width="200" height="800">
+  </div>
+  <div id="texts" style="display:inline; white-space:nowrap;"> 
+   <img src="images/Signup Screen.gif" alt="" align="left" width="200" height="800">
+  </div>
+  <div id="texts" style="display:inline; white-space:nowrap;"> 
+   <img src="images/Profile Screen.jpg" alt="" align="left" width="200" height="800">
+  </div>
+  <div id="texts" style="display:inline; white-space:nowrap;"> 
+   <img src="images/Profile Navbar.jpg" alt="" align="left" width="200" height="800">
+  </div>
 
 
 <!-- CONTACT -->
