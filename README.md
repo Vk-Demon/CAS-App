@@ -35,7 +35,6 @@
   <h4 align="center">(CAS)</h4>
 
   <p align="center">
-    <br />
     <a href="https://github.com/Vk-Demon/CAS-App"><strong>Explore the docs »</strong></a>
     <br />
     <br />
