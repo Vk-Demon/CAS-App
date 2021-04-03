@@ -53,12 +53,8 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a>
+    <li><a href="#built-with">Built With</a></li>
 	<li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -71,7 +67,7 @@
 
 CAS is an android application that it greatly simplifies the ordering process for both the customer and the canteen.
 
-### Built With
+## Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Android Studio](https://developer.android.com/docs)
