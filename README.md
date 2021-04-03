@@ -60,6 +60,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+	<li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -77,7 +78,10 @@ This section should list any major frameworks that you built your project using.
 * [Android Studio](https://developer.android.com/docs)
 * [Firebase](https://firebase.google.com/docs?gclid=CjwKCAjwpKCDBhBPEiwAFgBzj1GSDzRaMmrPaXRfTQT5kWcnS49ms3qWTfmoQZwRPGQHckGEM99WvhoCgdcQAvD_BwE&gclsrc=aw.ds)
 
+<!-- LICENSE -->
+## License
 
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
