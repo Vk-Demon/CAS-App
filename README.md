@@ -67,6 +67,8 @@
 
 CAS is an android application that it greatly simplifies the ordering process for both the customer and the canteen.
 
+
+
 ## Built With
   <p align="center">
     <img src="images/android+firebase.gif" alt="" width="400" height="240">
@@ -79,10 +81,15 @@ CAS is an android application that it greatly simplifies the ordering process fo
   <div id="texts" style="display:inline; white-space:nowrap;"> 
   <img src="images/firebase.svg" alt="" align="left" width="24" height="24"><a href="https://firebase.google.com/docs?gclid=CjwKCAjwpKCDBhBPEiwAFgBzj1GSDzRaMmrPaXRfTQT5kWcnS49ms3qWTfmoQZwRPGQHckGEM99WvhoCgdcQAvD_BwE&gclsrc=aw.ds">Firebase</a>
   </div>
+  
+  
+  
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+
 
 <!-- CONTACT -->
 ## Contact
