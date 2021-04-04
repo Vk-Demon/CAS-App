@@ -100,7 +100,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <div id="texts" style="display:inline; white-space:nowrap;"> 
    <img src="images/Signup Screen.gif" alt="" align="center" width="200" height="360">
   </div>
-  <br />
+  
   <div id="texts" style="display:inline; white-space:nowrap;"> 
    <img src="images/Profile Screen.jpg" alt="" align="left" width="200" height="360">
   </div>
