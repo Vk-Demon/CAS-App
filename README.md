@@ -102,10 +102,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
   </div>
   
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-   <img src="images/Profile Screen.jpg" alt="" align="left" width="200" height="360">
+   <img src="images/Profile Screen.jpg" alt="" align="center" width="200" height="360">
   </div>
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-   <img src="images/Profile Navbar.jpg" alt="" align="center" width="200" height="360">
+   <img src="images/Profile Navbar.jpg" alt="" align="right" width="200" height="360">
   </div>
 
 
