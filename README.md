@@ -71,11 +71,11 @@ CAS is an android application that it greatly simplifies the ordering process fo
 
 ## Built With
   <p align="center">
-    <img src="images/android+firebase.gif" alt="" width="400" height="240">
+    <img src="images/android+firebase.jpg" alt="" width="400" height="240">
   </p>
   <br />
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-  <img src="images/android_studio.png" alt="" align="left" width="24" height="24"><a href="https://developer.android.com/docs" target="_blank" >Android Studio</a>
+  <img src="images/android_studio.jpg" alt="" align="left" width="24" height="24"><a href="https://developer.android.com/docs" target="_blank" >Android Studio</a>
   </div>
   <br />
   <div id="texts" style="display:inline; white-space:nowrap;"> 
