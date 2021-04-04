@@ -4,7 +4,7 @@
 *** or simply open an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
@@ -16,6 +16,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap');
+</style>
 
 <!-- PROJECT SHIELDS -->
 <!--
