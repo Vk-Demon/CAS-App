@@ -31,7 +31,7 @@
     <img src="images/nglogoneoncircle.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center" style="color:blue;font-size:46px;">Canteen Automation System</h3>
+  <h3 style="color:blue;font-size:46px;">Canteen Automation System</h3>
   <h4 align="center">(CAS)</h4>
 
   <p align="center">
