@@ -95,17 +95,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Screenshots
 
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-   <img src="images/Login Screen.gif" alt="" align="left" width="200" height="500">
+   <img src="images/Login Screen.gif" alt="" align="left" width="200" height="400">
   </div>
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-   <img src="images/Signup Screen.gif" alt="" align="center" width="200" height="500">
+   <img src="images/Signup Screen.gif" alt="" align="center" width="200" height="400">
   </div>
   <br />
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-   <img src="images/Profile Screen.jpg" alt="" align="left" width="200" height="500">
+   <img src="images/Profile Screen.jpg" alt="" align="left" width="200" height="400">
   </div>
   <div id="texts" style="display:inline; white-space:nowrap;"> 
-   <img src="images/Profile Navbar.jpg" alt="" align="center" width="200" height="500">
+   <img src="images/Profile Navbar.jpg" alt="" align="center" width="200" height="400">
   </div>
 
 
