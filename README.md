@@ -4,25 +4,22 @@
 *** or simply open an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 -->
-<!--
-<html>
-<head>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap');
-</style>
-<head>
-</html>
--->
+
+
+
+[Cairo](https://fonts.googleapis.com/css2?family=Cairo&display=swap)
+[Hind Guntur](https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500&display=swap)
+[PT Sans](https://fonts.googleapis.com/css2?family=PT+Sans&display=swap)
+[Blinker](https://fonts.googleapis.com/css2?family=Blinker:wght@200&display=swap)
+[Poppins](https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap)
+[Maven Pro](https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap)
+[Ubuntu](https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap)
+[Nunito](https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap)
+[Didact Gothic](https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap)
+[Rubik](https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap)
+[Mulish](https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap)
+
+
 
 <!-- PROJECT SHIELDS -->
 <!--
