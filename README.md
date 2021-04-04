@@ -4,6 +4,7 @@
 *** or simply open an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 -->
+<!--
 <html>
 <head>
 <style>
@@ -21,6 +22,7 @@
 </style>
 <head>
 </html>
+-->
 
 <!-- PROJECT SHIELDS -->
 <!--
