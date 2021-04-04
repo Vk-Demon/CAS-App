@@ -7,20 +7,6 @@
 
 
 
-[Cairo](https://fonts.googleapis.com/css2?family=Cairo&display=swap)
-[Hind Guntur](https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500&display=swap)
-[PT Sans](https://fonts.googleapis.com/css2?family=PT+Sans&display=swap)
-[Blinker](https://fonts.googleapis.com/css2?family=Blinker:wght@200&display=swap)
-[Poppins](https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap)
-[Maven Pro](https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap)
-[Ubuntu](https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap)
-[Nunito](https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap)
-[Didact Gothic](https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap)
-[Rubik](https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap)
-[Mulish](https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap)
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -150,3 +136,15 @@ Project Link: [https://github.com/Vk-Demon/CAS-App](https://github.com/Vk-Demon/
 [license-url]: https://github.com/Vk-Demon/CAS-App/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/Vk-Demon
+
+[Cairo]: https://fonts.googleapis.com/css2?family=Cairo&display=swap
+[Hind Guntur]: https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@400;500&display=swap
+[PT Sans]: https://fonts.googleapis.com/css2?family=PT+Sans&display=swap
+[Blinker]: https://fonts.googleapis.com/css2?family=Blinker:wght@200&display=swap
+[Poppins]: https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap
+[Maven Pro]: https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap
+[Ubuntu]: https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap
+[Nunito]: https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap
+[Didact Gothic]: https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap
+[Rubik]: https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap
+[Mulish]: https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Rubik:wght@300&display=swap
