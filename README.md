@@ -117,6 +117,8 @@ Developer - Vimal Kannan (vk2049627@gmail.com)
 
 Project Link: [https://github.com/Vk-Demon/CAS-App](https://github.com/Vk-Demon/CAS-App)
 
+Download apk: [https://github.com/Vk-Demon/CAS-App/blob/main/Canteen_Automation_System.apk]
+
 
 
 
